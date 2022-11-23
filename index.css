@@ -1,0 +1,20 @@
+body {
+	background-image: url('t.jpg');
+	background-repeat: no-repeat;
+	background-size: 0vw 0vh;
+	background-color: black;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes open {
+	0% {
+		background-size: 0vw 0vh;
+		background-position: 50vw 50vh;
+	}
+	100% {
+		background-size: 100vw 100vh;
+		background-position: auto;
+	}
+}
